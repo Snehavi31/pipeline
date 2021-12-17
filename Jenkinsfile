@@ -6,6 +6,7 @@ pipeline {
 				echo" This is a Multibranch Pipeline"
 				sh "pwd"
 				sh "java -version"
+				sh "cat test"
 			}
 		}
 	}
